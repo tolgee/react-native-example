@@ -8,3 +8,5 @@
 4. Set `TOLGEE_API_KEY` to API key obtained in previous step
 5. Run `npm run web`, `npm run ios` or `npm run android`
 6. Have fun
+
+> Note: FormatIcu plugin currently doesn't work
