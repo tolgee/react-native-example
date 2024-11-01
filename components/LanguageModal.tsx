@@ -1,4 +1,3 @@
-import { useTolgee } from "@tolgee/react";
 import { Text, View, Modal, Button, StyleSheet } from "react-native";
 import { Picker } from "@react-native-picker/picker";
 import { useState } from "react";

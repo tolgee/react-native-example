@@ -1,6 +1,6 @@
 import { useTranslate, T } from "@tolgee/react";
 import { StyleSheet, Text, View } from "react-native";
-import { BaseView } from "../components/BaseView";
+import { BaseView } from "./BaseView";
 
 export function TranslationMethods() {
   const { t } = useTranslate();
@@ -52,6 +52,16 @@ export function TranslationMethods() {
             {t({
               key: "this_is_a_key",
               params: { key: "value", key2: "value2" },
+            })}
+          </Text>
+        </View>
+
+        <View style={styles.example}>
+          <Text style={styles.heading}>t function with plural</Text>
+          <Text>
+            {t({
+              key: "this_is_a_key_with_plural",
+              params: { value: 1 },
             })}
           </Text>
         </View>

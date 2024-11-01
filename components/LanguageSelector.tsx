@@ -1,5 +1,5 @@
 import { useTolgee } from "@tolgee/react";
-import { Text, View, Modal, Button, StyleSheet } from "react-native";
+import { Button } from "react-native";
 import { useState } from "react";
 import { LanguageModal } from "./LanguageModal";
 
