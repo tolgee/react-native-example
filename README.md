@@ -5,7 +5,7 @@
 1. Create a project on [Tolgee Cloud](https://app.tolgee.io) or use self-hosted [Tolgee Platform](https://github.com/tolgee/tolgee-platform).
 2. Generate an API-KEY
 3. Copy file `.env` to `.env.development.local`
-4. Set `TOLGEE_API_KEY` to API key obtained in previous step
+4. Set `EXPO_PUBLIC_TOLGEE_API_KEY` to API key obtained in previous step
 5. Run `npm run web`, `npm run ios` or `npm run android`
 6. Have fun
 
